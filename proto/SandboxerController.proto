@@ -1,0 +1,47 @@
+service SandboxerController {
+  rpc getConfig(getConfigRequest) returns (getConfigResponse);
+  rpc registerNewOva(registerNewOvaRequest) returns (registerNewOvaResponse);
+  rpc createVmMeta(createVmMetaRequest) returns (createVmMetaResponse);
+  rpc updateVmMeta(updateVmMetaRequest) returns (updateVmMetaResponse);
+  rpc deleteVmMeta(deleteVmMetaRequest) returns (deleteVmMetaResponse);
+}
+
+message getConfigRequest{
+
+}
+
+message getConfigResponse{
+
+}
+
+message registerNewOvaRequest{
+
+}
+
+message registerNewOvaResponse{
+
+}
+
+message createVmMetaRequest{
+
+}
+
+message createVmMetaResponse{
+
+}
+
+message updateVmMetaRequest{
+
+}
+
+message updateVmMetaResponse{
+
+}
+
+message deleteVmMetaRequest{
+
+}
+
+message deleteVmMetaResponse{
+
+}

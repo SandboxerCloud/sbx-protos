@@ -1,7 +1,0 @@
-service SandboxerFrontController {
-  rpc getListOfSeeds(GetListOfSeedsRequest) returns (GetListOfSeedsResponse);
-}
-
-message GetListOfSeedsRequest{}
-
-message GetListOfSeedsResponse{}

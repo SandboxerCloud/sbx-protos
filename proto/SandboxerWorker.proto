@@ -1,3 +1,38 @@
-service SandboxerWorker {
+service SbxWorkerExternal {
+  rpc createVm(createVmRequest) returns (createVmResponse);
+  rpc heartbeat(heartbeatRequest) returns (heartbeatResponse);
+  rpc createSeed(createSeedRequest) returns (createSeedResponse);
+  rpc removeSeed(removeSeedRequest) returns (removeSeedResponse);
+}
+
+message createVmRequest{
+
+}
+
+message createVmResponse{
+
+}
+
+message heartbeatRequest{
+
+}
+
+message heartbeatResponse{
+
+}
+
+message createSeedRequest{
+
+}
+
+message createSeedResponse{
+
+}
+
+message removeSeedRequest{
+
+}
+
+message removeSeedResponse{
 
 }
